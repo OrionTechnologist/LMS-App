@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Global Users Activity Counter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+       * {
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            margin: 0;
+            background: #ffffff;
+        }
+
+       #avatarSection, #activitySection {
+           opacity: 0;
+           transform: translateY(20px);
+           transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+       }
+    </style>
+</head>
+<body>
+<div class="flex flex-row items-center gap-[10px] px-[10px] bg-white rounded-[10px] h-[70px] w-full" id="sectionContainer">
+    <img id="avatarSection" src="https://upayearn.aleyaskitchen.com/uploads/1703457358.jpg" alt="Avatar"
+         class="rounded-full h-[40px] w-[40px] border-4 border-white shadow" style="display: none;">
+    <div id="activitySection" style="display: none;" class="text-[13px]">
+        <span class="text-purple-700 font-bold">Mohammed Nayeem</span>
+        has purchased the
+        <div class="inline-flex items-center text-white rounded-[10px] p-[5px] py-[3px] bg-teal-600 text-[12px]">
+            <img src="ic_package_silver_trophy.png" class="w-[13px] inline" />
+            <span class="ml-[5px]">Diamond</span>
+        </div>&nbsp;League.
+    </div>
+</div>
+
+<script src="axios.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

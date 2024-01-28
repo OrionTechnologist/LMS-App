@@ -1,0 +1,4 @@
+// prettier-ignore
+{
+  "extends": "./tsconfig.origin.json",     /* Recommended React Native TSConfig base */
+}

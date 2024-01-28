@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259351128682",
+    "project_id": "u-pay-earn",
+    "storage_bucket": "u-pay-earn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259351128682:android:390b17cff4f37a0942f813",
+        "android_client_info": {
+          "package_name": "com.upayearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259351128682-pt406g9qlhopq42rq38vptjhlifn0ibr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA17SVyYB7g3-RCRSe_ApPhCp9hz_Lj_6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259351128682-pt406g9qlhopq42rq38vptjhlifn0ibr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

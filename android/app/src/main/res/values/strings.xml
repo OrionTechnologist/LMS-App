@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">U-Pay Earn</string>
+    <string name="default_notification_channel_id">regular-notifications-channel</string>
+</resources>
